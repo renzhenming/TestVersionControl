@@ -11,5 +11,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //修改一行代码
         System.out.println("hello");
+        //更新master代码
+        System.out.println("更新master代码");
     }
 }
