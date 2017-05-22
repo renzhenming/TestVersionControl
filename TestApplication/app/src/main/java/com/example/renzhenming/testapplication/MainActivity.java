@@ -21,5 +21,6 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("第五次提交");
         //删除无用分支
         System.out.println("删除无用分支");
+        //git checkout -- file
     }
 }
