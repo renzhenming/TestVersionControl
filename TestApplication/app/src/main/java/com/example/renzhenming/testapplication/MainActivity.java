@@ -22,5 +22,6 @@ public class MainActivity extends AppCompatActivity {
         //删除无用分支
         System.out.println("删除无用分支");
         //git checkout -- file
+
     }
 }
