@@ -5,4 +5,5 @@ package com.example.renzhenming.testapplication;
  */
 
 public class NewClass {
+    //today is a good day
 }
