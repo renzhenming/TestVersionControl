@@ -31,5 +31,7 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("merge失败");
         //merge成功一次
         System.out.println("merge成功一次");
+        //再次merge
+        System.out.println("再次merge");
     }
 }
