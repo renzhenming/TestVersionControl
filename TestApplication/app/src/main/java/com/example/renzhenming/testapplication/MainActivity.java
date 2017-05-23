@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         //删除无用分支
         System.out.println("删除无用分支");
         //git checkout -- file
-
+        //5/23第一次提交
+        System.out.println("5/23第一次提交");
     }
 }
