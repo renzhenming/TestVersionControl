@@ -43,5 +43,8 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("merge成功一次");
         //再次merge
         System.out.println("最后一次测试乐乐乐乐乐乐乐乐乐");
+
+        //撤销提交到本地的代码
+        System.out.println("撤销提交到本地的代码");
     }
 }
