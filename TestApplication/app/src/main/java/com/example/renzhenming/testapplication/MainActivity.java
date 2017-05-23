@@ -21,5 +21,13 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("第五次提交");
         //删除无用分支
         System.out.println("删除无用分支");
+
+        //git checkout -- file
+        //5/23第一次提交
+        System.out.println("5/23第一次提交");
+        //5/23第2次提交
+        System.out.println("5/23第2次提交");
+        //merge失败
+        System.out.println("merge失败");
     }
 }
