@@ -24,5 +24,7 @@ public class MainActivity extends AppCompatActivity {
         //git checkout -- file
         //5/23第一次提交
         System.out.println("5/23第一次提交");
+        //5/23第2次提交
+        System.out.println("5/23第2次提交");
     }
 }
