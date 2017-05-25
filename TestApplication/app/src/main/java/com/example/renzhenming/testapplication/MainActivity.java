@@ -53,5 +53,7 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("yyyyy");
         //yyyyy
         System.out.println("继续提交到ren分支");
+        //合并分支
+        System.out.println("合并分支");
     }
 }
