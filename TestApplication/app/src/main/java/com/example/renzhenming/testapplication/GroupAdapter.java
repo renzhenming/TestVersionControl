@@ -35,7 +35,8 @@ public class GroupAdapter extends RecyclerView.Adapter {
     public void onBindViewHolder(RecyclerView.ViewHolder holder, final int position) {
         final List<String> list = mSearchMap.get(position);
         ViewHolder viewHolder = (ViewHolder) holder;
-        viewHolder.mChildView.setLayoutManager(new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL));
+        StaggeredGridLayoutManager layoutManager = new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL);
+        viewHolder.mChildView.setLayoutManager(layoutManager);
         ChildAdapter childAdapter = new ChildAdapter(context, list);
         viewHolder.mChildView.addItemDecoration(new SimpleItemDecoration(10));
         childAdapter.setOnChildItemClickListener(new ChildAdapter.OnChildItemClickListener() {
