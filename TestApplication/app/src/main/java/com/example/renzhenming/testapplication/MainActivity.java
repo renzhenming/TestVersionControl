@@ -57,5 +57,7 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("合并分支");
         System.out.println("提交到master分支，然后合并到ren分支");
         System.out.println("again：提交到master分支，然后合并到ren分支");
+
+        System.out.println("打第二个tag");
     }
 }
