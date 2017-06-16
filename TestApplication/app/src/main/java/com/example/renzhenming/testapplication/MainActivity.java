@@ -67,5 +67,8 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("sdfsd");
         System.out.println("给指定的commit打标签");
 
+        System.out.println("haha");
+        System.out.println("不在这里打");
+
     }
 }
