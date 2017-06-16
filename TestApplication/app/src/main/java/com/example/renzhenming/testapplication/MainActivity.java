@@ -60,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
 
         System.out.println("打第二个tag");
         System.out.println("轻量tag");
+        System.out.println("haha");
+        System.out.println("hehe");
 
     }
 }
