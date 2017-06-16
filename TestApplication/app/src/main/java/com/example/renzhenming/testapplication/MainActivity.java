@@ -62,6 +62,10 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("轻量tag");
         System.out.println("haha");
         System.out.println("hehe");
+        System.out.println("hehe");
+
+        System.out.println("sdfsd");
+        System.out.println("给指定的commit打标签");
 
     }
 }
