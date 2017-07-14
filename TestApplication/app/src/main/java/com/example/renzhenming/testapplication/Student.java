@@ -13,6 +13,16 @@ public class Student {
     }
 
     public String name;
+    public String sex;
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
     public List<Course> courses;
 
     public class Course{
