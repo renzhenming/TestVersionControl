@@ -30,7 +30,7 @@ public class RXJavaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rxjava);
 
-        Student student1 = new Student("张三");
+       /* Student student1 = new Student("张三");
 
         Student student2 = new Student("lisi");
         Student student3 = new Student("wangwu");
@@ -59,7 +59,7 @@ public class RXJavaActivity extends AppCompatActivity {
                     public void onNext(String s) {
                         System.out.println("学生姓名："+s);
                     }
-                });
+                });*/
         /***********************************************************/
         //变换
         /*final ImageView mImageView = (ImageView) findViewById(R.id.image);
