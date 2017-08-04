@@ -2,14 +2,14 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="true" >
+    android:fillViewport="true">
 
     <!-- 设置fillViewport属性表示充满整个ScrollView -->
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <LinearLayout
             android:id="@+id/logo"
@@ -18,19 +18,20 @@
             android:layout_marginTop="20dip"
             android:layout_weight="1"
             android:gravity="bottom|center_horizontal"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <ImageView
-                android:src="@drawable/avatar_40"
                 android:id="@+id/imageView1"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:src="@drawable/avatar_40" />
 
             <ImageView
+                android:visibility="gone"
                 android:id="@+id/serviceimg"
-                android:src="@drawable/avatar_40"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:src="@drawable/avatar_40" />
         </LinearLayout>
 
         <LinearLayout
@@ -40,25 +41,25 @@
             android:layout_weight="1"
             android:gravity="top|center_horizontal"
             android:orientation="vertical"
-            android:visibility="visible" >
+            android:visibility="visible">
 
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="60dip"
                 android:layout_marginRight="60dip"
-                android:orientation="vertical" >
+                android:orientation="vertical">
 
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:orientation="horizontal" >
+                    android:orientation="horizontal">
 
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1" >
+                        android:layout_weight="1">
 
                         <EditText
                             android:id="@+id/userid"
@@ -96,7 +97,7 @@
                 <RelativeLayout
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dip" >
+                    android:layout_marginTop="10dip">
 
                     <EditText
                         android:id="@+id/password"
@@ -128,7 +129,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:gravity="center"
-                    android:orientation="horizontal" >
+                    android:orientation="horizontal">
 
                     <Button
                         android:id="@+id/setbt"
@@ -160,7 +161,7 @@
             android:layout_weight="1"
             android:alwaysDrawnWithCache="true"
             android:gravity="bottom|center_horizontal"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/info"
