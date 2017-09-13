@@ -1,13 +1,17 @@
 package com.example.renzhenming.testapplication;
 
 import android.content.ContextWrapper;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.method.HideReturnsTransformationMethod;
+import android.text.method.PasswordTransformationMethod;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -25,11 +29,26 @@ import rx.schedulers.Schedulers;
 
 public class RXJavaActivity extends AppCompatActivity {
 
+    private EditText mEdit;
+    private boolean isHide = true;
+    public void change(View view){
+
+        startActivity(new Intent(getApplicationContext(),ChooseCoverActivity.class));
+        /*if (isHide){
+            mEdit.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+            isHide = false;
+        }else{
+            mEdit.setTransformationMethod(PasswordTransformationMethod.getInstance());
+            isHide = true;
+        }*/
+
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rxjava);
-
+        mEdit = (EditText) findViewById(R.id.edit);
        /* Student student1 = new Student("张三");
 
         Student student2 = new Student("lisi");
